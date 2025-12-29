@@ -67,22 +67,22 @@ The script will generate five distinct visualizations windows:
 
 1.  **Performance Metrics:** RMSE Loss curves showing convergence.
 
-    ![RMSE loss curve showing convergence](./.github/assets/Performence.png)
+    ![RMSE loss curve showing convergence](./assets/RMSE.png)
 
 2.  **Learning Rate:** The OneCycle scheduler curve.
-   ![OneCycle Learning Rate](./.github/assets/Learning_Rate.png)
+   ![OneCycle Learning Rate](./assets/Learning_Rate.png)
 
 3.  **Geometric Evolution:** A grid showing how the neural manifold "unrolls" over time (Epochs 0 to 3000).
-   ![Model Evolution](./.github/assets/Evolution.png)
+   ![Model Evolution](./assets/Evolution.png)
 
 4.  **Final UMAP Projection:** A high-resolution 3D view of the final "Split-Brain" topology.
-   ![Model Geometry](./.github/assets/Final_Model.png)
+   ![Model Geometry](./assets/Final_Model.png)
 
 5.  **Fourier Analysis:** Frequency spectrum plots showing how neurons act as wave detectors.
-   ![Key Neurons](./.github/assets/FT.png)
+   ![Key Neurons](./assets/FT.png)
 
 6.  **Bayesian Uncertainty:** A 3D surface plot showing where the model is confident vs. confused.
-   ![Bayesian Analysis](./.github/assets/Bayesian.png)
+   ![Bayesian Analysis](./assets/Bayesian.png)
 
 ---
 
