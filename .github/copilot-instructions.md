@@ -11,12 +11,12 @@ Purpose: quick, actionable guidance so an AI coding agent is immediately product
 
 Key project facts
 - Primary language: Python (PyTorch ML experiments).
-- Entrypoints: `run.py` (simple demo) and `evolution.py` (full experiment with TASK_MODE and snapshots).
+- Entrypoints: `evolution.py` (simple demo) and `evolution_umap.py` (full experiment with TASK_MODE and snapshots).
 - Main modules: `model.py` (ModuloNet), `data.py` (TaskDataGenerator), `analyzer.py` (ManifoldAnalyzer / BayesianObserver), `viz.py` (Visualizer).
 - External deps observed: torch, numpy, scikit-learn, matplotlib.
 
 What to read first (fast path)
-- `run.py` or `evolution.py` to see the full experiment flow (data → model → train → analyze → viz).
+- `evolution.py` or `evolution_umap.py` to see the full experiment flow (data → model → train → analyze → viz).
 - `model.py` to understand the network contract: input_dim, hidden_dim, num_hidden_layers, dropout used for MC-Dropout.
 - `data.py` for input shapes and normalization (multi_task uses 3rd column as task id).
 - `analyzer.py` and `viz.py` for how activations are projected (PCA) and plotted (3D scatter grids).
