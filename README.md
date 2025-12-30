@@ -76,7 +76,7 @@ The script will generate five distinct visualizations windows:
    ![Model Evolution](./assets/Evolution.png)
 
 4.  **Final UMAP Projection:** A high-resolution 3D view of the final "Split-Brain" topology.
-   ![Final Model](./assets/UMAP.png)
+   
    ![Geometric Seperation](./assets/UMAP_MT.png)
 
 5.  **Fourier Analysis:** Frequency spectrum plots showing how neurons act as wave detectors.
